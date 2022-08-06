@@ -1,0 +1,64 @@
+.margin {
+  margin: 20px 0;
+}
+.padding {
+  padding: 120px 0;
+
+}
+.padding2 {
+  padding-top: 360px;
+  padding-bottom: 360px;
+}
+.padding_bottom{
+  padding-bottom: 120px;
+}
+
+.background{
+  background-color: #f9f9f9;
+
+}
+.padding_top {
+  padding-top: 50px;
+}
+.active_image  {
+  opacity: 1!important;
+  transform: scale(1.1);
+}
+
+@keyframes sliderIn {
+  from{
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animation{
+  animation: sliderIn .4s ease-in;
+}
+.active_flex {
+  display: flex;
+}
+.active {
+  display: block;
+}
+.no-active {
+  display: none ;
+}
+.hidden {
+  overflow: hidden;
+}
+
+@keyframes inOutMenu {
+  from{
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  t0 {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+}
